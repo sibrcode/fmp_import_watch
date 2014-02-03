@@ -1,8 +1,6 @@
 ## FileMaker Import Log Watcher
-### (fmp_import_watch)
+** (fmp_import_watch) **
 
-##### Created by Simon Brown
-##### First public version February 2, 2014
 
 ### PURPOSE
 
@@ -35,3 +33,7 @@ Information may be logged to two files, both in /tmp:
 * /tmp/fmp_import_watch.log
 * /tmp/fmp_import_watch_err.log
 
+### HISTORY
+
+*** Created by Simon Brown **
+*** First public version February 2, 2014 ***
