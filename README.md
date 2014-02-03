@@ -13,15 +13,15 @@ Mac OS 10.8 is required for User Notifications feature. One feature, the clearin
 
 ### INSTALLATION
 
-There are two parts, the launchd .plist that sets up the monitoring of changes to the Import.log, and a script file.
+There are two files that must be copied into different locations on your system.
 
-The com.sibr.fmp_import_watch.plist must be installed inside (where the tilde indicates your home directory):
+The first is a launchd .plist that sets up the monitoring of changes to the Import.log. Copy the com.sibr.fmp_import_watch.plist inside the following folder (where the tilde indicates your home directory):
 > ~/Library/LaunchAgents 
 
 The Python script, fmp_import_watcher.py should be installed inside:
 > ~/Library/Application Support/
 
-Log out & back in to activate the monitoring. To make this happen immediately, run this command in Terminal:
+Log out & back in to activate the monitoring, or to make this happen immediately, run this command in Terminal:
 
 > launchctl load ~/Library/LaunchAgents/com.sibr.fmp_import_watch.plist
 
