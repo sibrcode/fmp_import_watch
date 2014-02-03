@@ -3,7 +3,7 @@
 
 ### PURPOSE
 
-When the FileMaker Pro client imports scripts, layouts, or schema items it will create entries in a file in the user's Documents folder. This system will monitor the log changes, and create Notification Center alerts when there are new errors.
+When the FileMaker Pro client imports scripts or schema items it will create entries in a file in the user's Documents folder. This system will monitor the log changes, and create Notification Center alerts when there are new errors.
 
 **Note however that when working on local (non-hosted) files there is no fixed position for the Import.log file, so these events are not monitored.**
 
